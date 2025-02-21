@@ -1,0 +1,35 @@
+MAKE VIRTUAL ENVIRONMENT:
+python -m venv name_of_virtual_environment
+
+ENTER VIRTUAL ENVIRONMENT:
+
+INSTALL KAGGLE:
+pip install Kaggle
+
+IMPORT THE DATASET FORM KAGGLE:
+Kaggle datasets download -d najir0123/walmart-10k-sales-datasets
+
+UNZIP THE FOLDER:
+Right click the folder and unzip it
+
+INSTALL PANDAS:
+pip install pandas
+
+__________________________________________________________
+
+OPEN MYSQL:
+(On Terminal) - MySQL -u username -p(if you have a password)
+
+INSTALL LIBRARIES:
+pip install pymysql
+pip install sqlalchemy
+
+BASIC INFO FOR MySQL:
+host=localhost
+port=3306
+user=root
+password='your_password' (if you have one)
+
+CREATE DATABASE ON MySQL WORKBENCH:
+create database walmart_db
+use walmart_db
